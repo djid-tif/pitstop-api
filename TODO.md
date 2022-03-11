@@ -1,0 +1,21 @@
+# TODO List
+
+- Global:
+    - Categories
+    - Topics
+    - Posts
+- Database
+    - Categories
+    - Topics
+    - Posts
+    - Reports
+- Auth
+    - User info validation functions
+    - Auth functions
+    - Use mux [middlewares](https://pkg.go.dev/github.com/gorilla/mux#MiddlewareFunc)
+    - Use [JWX](https://github.com/lestrrat-go/jwx/blob/main/examples/jwt_example_test.go)
+- Ranks
+    - Set up permissions
+    - Report system
+- Friends
+- Stats

@@ -1,0 +1,27 @@
+{{define "test"}}
+    <!DOCTYPE html>
+    <html lang="fr">
+    <head>
+        <title>Test template</title>
+        <meta charset="utf-8">
+        <style>
+            body {
+                text-align: center;
+            }
+
+            hr {
+                width: 50%;
+            }
+        </style>
+    </head>
+    <body>
+    <h1>This is a test</h1>
+    <hr/>
+    <h3>Hello, <i>{{.Username}}</i> !</h3>
+    <br/>
+    <hr/>
+    <br/>
+    <p>Sent at {{.SendingDate}}</p>
+    </body>
+    </html>
+{{end}}

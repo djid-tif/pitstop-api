@@ -1,0 +1,33 @@
+{{define "verify_mail"}}
+    <!DOCTYPE html>
+    <html lang="fr">
+    <head>
+        <title>PitStop - Demande de modification du mot de passe</title>
+        <meta charset="utf-8">
+        <style>
+            body {
+                text-align: center;
+            }
+
+            hr {
+                width: 50%;
+            }
+        </style>
+    </head>
+    <body>
+    <h1>PitStop - Activate account</h1>
+    <hr/>
+    <h3>Bonjour <i>{{.Username}}</i>,</h3>
+    <h5>Vous semblez avoir demandé une demande de modification de votre mot de passe.</h5>
+    <h5>Si tel est le cas, cliquez sur <a href="{{.ConfirmLink}}" target="_blank">ce lien</a> afin de
+        modifier votre mot de passe.</h5>
+    <p><a href="{{.ConfirmLink}}" target="_blank">{{.ConfirmLink}}</a></p>
+    <br/>
+    <h5>Si vous n'êtes pas à l'origine de cette demande, ignorez simplement ce message.</h5>
+    <hr/>
+    <br/>
+    <p>Au plaisir de vous revoir sur <a href="{{.PitStopLink}}" target="_blank">PitStop</a> !
+    </p>
+    </body>
+    </html>
+{{end}}
